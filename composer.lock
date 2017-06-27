@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "607ce18fd21d032ef9c7983bbef2e793",
+    "packages": [
+        {
+            "name": "lionar/ioc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lionar/ioc.git",
+                "reference": "4fd64782ead6dca11406d1858a655aa0c22246f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lionar/ioc/zipball/4fd64782ead6dca11406d1858a655aa0c22246f0",
+                "reference": "4fd64782ead6dca11406d1858a655aa0c22246f0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ioc\\": "source"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Wouters",
+                    "email": "lionar@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Ultimate basic IOC container.",
+            "keywords": [
+                "basic",
+                "ioc",
+                "lionar"
+            ],
+            "time": "2017-06-27T16:49:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

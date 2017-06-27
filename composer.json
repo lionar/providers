@@ -1,0 +1,30 @@
+{
+	"name": "lionar/providers",
+	"version": "0.0.1",
+	"description": "Lionar's framework service providers.",
+	"keywords": [ "Lionar", "Providers" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		"lionar/ioc": "*"
+  	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+    	"psr-4": {
+			"http\\providers\\": "source/http",
+    		"providers\\": "source"
+   	 	}
+  	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
