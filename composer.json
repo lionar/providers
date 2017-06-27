@@ -12,7 +12,8 @@
 		}
 	],
 	"require" : {
-		"lionar/ioc": "*"
+		"lionar/ioc": "*",
+		"lionar/facades": "*"
   	},
 	"require-dev": {
 		

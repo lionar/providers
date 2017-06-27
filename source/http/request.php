@@ -6,9 +6,13 @@ class request extends \ioc\provider
 {
 	public function register ( )
 	{
-		$this->container->share ( 'request', function ( )
+		$request = \http\request::capture ( );
+
+		$this->container->share ( 'request', function ( ) use ( $request )
 		{
-			return \http\request::capture ( );
+			return $request;
 		} );
+
+		\request::instance ( $request );
 	}
 }
