@@ -10,6 +10,6 @@ class router extends \ioc\provider
 
 		$this->container->instance ( 'router', $router );
 
-		\router::instance ( $router );
+		\route::instance ( $router );
 	}
 }
