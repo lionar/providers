@@ -20,6 +20,7 @@
 	},
 	"autoload": {
     	"psr-4": {
+    		"html\\providers\\": "source/html",
 			"http\\providers\\": "source/http",
     		"providers\\": "source"
    	 	}
