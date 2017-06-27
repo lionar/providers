@@ -6,6 +6,10 @@ class path extends \ioc\provider
 {
 	public function register ( )
 	{
-		$this->container->instance ( 'path', new \path\collection ( __DIR__ . '/../..' ) );
+		$path = new \path\collection ( __DIR__ . '/../..' );
+		
+		$this->container->instance ( 'path', $path );
+
+		\path::instance ( $path );
 	}
 }
