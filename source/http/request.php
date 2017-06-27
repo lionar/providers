@@ -8,10 +8,7 @@ class request extends \ioc\provider
 	{
 		$request = \http\request::capture ( );
 
-		$this->container->share ( 'request', function ( ) use ( $request )
-		{
-			return $request;
-		} );
+		$this->container->instance ( 'request', $request );
 
 		\request::instance ( $request );
 	}
