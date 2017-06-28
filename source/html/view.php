@@ -21,9 +21,10 @@ class view extends \ioc\provider
 
 			$view = new \html\view ( $twig );
 
-			\view::instance ( $view );
 
 			return $view;
 		} );
+		
+		\view::instance ( $this->container->make ( 'view' ) );
 	}
 }
